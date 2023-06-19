@@ -1,0 +1,1 @@
+helm install kube-prometheus-stack https://github.com/spurin/helm-charts-backup/raw/main/kube-prometheus-stack-46.8.0.tgz
