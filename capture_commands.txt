@@ -1,0 +1,4 @@
+# Capture with all dependencies
+helm pull prometheus-community/kube-prometheus-stack --version 46.8.0 --untar --untardir ./my-charts
+# Package
+helm package ./my-charts/kube-prometheus-stack
